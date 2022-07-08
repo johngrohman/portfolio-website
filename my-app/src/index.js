@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Nav from './nav.js';
 
-const jsxElement = <h1>This is a JSX element</h1>
+const App = () => (
+    <div className='app'>
+        <Nav />
+    </div>
+)
 
-const root = document.getElementById('root')
-
-ReactDOM.render(jsxElement, root)
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
