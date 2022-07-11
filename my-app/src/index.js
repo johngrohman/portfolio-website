@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Nav from './nav.js';
+import SideBar from './sidebar.js';
 
 const App = () => (
     <div className='app'>
-        <Nav />
+        <SideBar />
     </div>
 )
 
