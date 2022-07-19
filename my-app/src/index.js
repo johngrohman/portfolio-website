@@ -1,10 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import SideBar from './sidebar.js';
+import ReactDOM from 'react-dom/client';
+import SideBar from './Components/Sidebar.js';
+import Main from './Components/Main.js';
 
 const App = () => (
     <div className='app'>
         <SideBar />
+        <Main />
     </div>
 )
 
