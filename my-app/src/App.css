@@ -9,6 +9,10 @@ html, body, #root, .app {
   color: white;
 }
 
+.app {
+  display: inline-block;
+}
+
 .Sidebar {
   background-color: #262626;
   width: 25%;
@@ -40,15 +44,15 @@ div#container * {
   margin-right: auto;
 }
 
-#sidebar h2 {
+h2 {
   font-weight: lighter;
 }
 
 #code {
   width: 60px;
-  /* position: absolute;
+  position: fixed;
   bottom: 20px;
-  left: 41.5%; */
+  transform: translate(-50%, 0);
 }
 
 .SidebarNav{
@@ -83,10 +87,8 @@ div#container * {
   transform-origin: bottom left;
 }
 
-#maincontainer {
-    margin-left: 25%;
-    color: black;
-    height: 100%;
-    width: 75%;
-    float: left;
+@media screen and (max-height: 600px) {
+  #code {
+    display: none;
+  }
 }
