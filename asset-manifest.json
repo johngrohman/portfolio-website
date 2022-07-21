@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reactpage/static/css/main.38dc4049.css",
+    "main.js": "/reactpage/static/js/main.56c8eb11.js",
+    "static/media/lca.png": "/reactpage/static/media/lca.1298eb2127271965a95a.png",
+    "static/media/monstera.jpg": "/reactpage/static/media/monstera.2630fd7753cf3ed6db38.jpg",
+    "static/media/profile.jpg": "/reactpage/static/media/profile.03029dcd93e75ba1c1e5.jpg",
+    "static/media/Resume.pdf": "/reactpage/static/media/Resume.65e4719f491f57d4e5af.pdf",
+    "static/media/acm.png": "/reactpage/static/media/acm.515218acd81fcf98c479.png",
+    "static/media/rover.png": "/reactpage/static/media/rover.f57bbdc5a4bbb974fa78.png",
+    "static/media/linkedin_logo_icon_white.png": "/reactpage/static/media/linkedin_logo_icon_white.158abb88a74970a58b99.png",
+    "static/media/github_logo_icon_white.png": "/reactpage/static/media/github_logo_icon_white.4b39480e0866bd2007d5.png",
+    "index.html": "/reactpage/index.html",
+    "main.38dc4049.css.map": "/reactpage/static/css/main.38dc4049.css.map",
+    "main.56c8eb11.js.map": "/reactpage/static/js/main.56c8eb11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38dc4049.css",
+    "static/js/main.56c8eb11.js"
+  ]
+}
