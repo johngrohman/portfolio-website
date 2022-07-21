@@ -2,6 +2,7 @@ import React from 'react';
 import "../App.css";
 import AboutCard from '../Components/AboutCard';
 import { AboutData } from '../Data/AboutData.js';
+import Resume from '../assets/Resume.pdf';
 
 function AboutMe() {
   return (
@@ -22,7 +23,7 @@ function AboutMe() {
         })}
 
 
-      <h2>Resume</h2>
+      <a href={Resume} download='JohnGrohmanResume' className='ResumeDownload'><h2>Resume</h2></a>
     </div>
   )
 }
