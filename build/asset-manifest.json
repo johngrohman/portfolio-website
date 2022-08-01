@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.da549efa.css",
-    "main.js": "/Portfolio-Website/static/js/main.7602332e.js",
-    "static/media/lca.png": "/Portfolio-Website/static/media/lca.1298eb2127271965a95a.png",
-    "static/media/monstera.jpg": "/Portfolio-Website/static/media/monstera.2630fd7753cf3ed6db38.jpg",
-    "static/media/profile.jpg": "/Portfolio-Website/static/media/profile.03029dcd93e75ba1c1e5.jpg",
-    "static/media/Resume.pdf": "/Portfolio-Website/static/media/Resume.65e4719f491f57d4e5af.pdf",
-    "static/media/acm.png": "/Portfolio-Website/static/media/acm.515218acd81fcf98c479.png",
-    "static/media/rover.png": "/Portfolio-Website/static/media/rover.f57bbdc5a4bbb974fa78.png",
-    "static/media/linkedin_logo_icon_white.png": "/Portfolio-Website/static/media/linkedin_logo_icon_white.158abb88a74970a58b99.png",
-    "static/media/github_logo_icon_white.png": "/Portfolio-Website/static/media/github_logo_icon_white.4b39480e0866bd2007d5.png",
-    "index.html": "/Portfolio-Website/index.html",
-    "main.da549efa.css.map": "/Portfolio-Website/static/css/main.da549efa.css.map",
-    "main.7602332e.js.map": "/Portfolio-Website/static/js/main.7602332e.js.map"
+    "main.css": "./static/css/main.da549efa.css",
+    "main.js": "./static/js/main.7602332e.js",
+    "static/media/lca.png": "./static/media/lca.1298eb2127271965a95a.png",
+    "static/media/monstera.jpg": "./static/media/monstera.2630fd7753cf3ed6db38.jpg",
+    "static/media/profile.jpg": "./static/media/profile.03029dcd93e75ba1c1e5.jpg",
+    "static/media/Resume.pdf": "./static/media/Resume.65e4719f491f57d4e5af.pdf",
+    "static/media/acm.png": "./static/media/acm.515218acd81fcf98c479.png",
+    "static/media/rover.png": "./static/media/rover.f57bbdc5a4bbb974fa78.png",
+    "static/media/linkedin_logo_icon_white.png": "./static/media/linkedin_logo_icon_white.158abb88a74970a58b99.png",
+    "static/media/github_logo_icon_white.png": "./static/media/github_logo_icon_white.4b39480e0866bd2007d5.png",
+    "index.html": "./index.html",
+    "main.da549efa.css.map": "./static/css/main.da549efa.css.map",
+    "main.7602332e.js.map": "./static/js/main.7602332e.js.map"
   },
   "entrypoints": [
     "static/css/main.da549efa.css",
