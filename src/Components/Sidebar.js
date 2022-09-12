@@ -10,11 +10,11 @@ function Sidebar() {
     return (
         <div className="Sidebar">
             <img src={profileImage} alt="profile" id="profile-picture"/>
-            <h2>John Grohman</h2>
+            <h2 className='title'>John Grohman</h2>
             <div id="container">
-            <a href="https://www.linkedin.com/in/johngrohman/" target="_blank" rel="noreferrer"><img src={linkedinIcon} alt="linkedin" /></a>
-            <a href="https://github.com/johngrohman" target="_blank" rel="noreferrer"><img src={githubIcon} alt="github" /></a>
-         </div>
+                <a href="https://www.linkedin.com/in/johngrohman/" target="_blank" rel="noreferrer"><img src={linkedinIcon} alt="linkedin" /></a>
+                <a href="https://github.com/johngrohman" target="_blank" rel="noreferrer"><img src={githubIcon} alt="github" /></a>
+            </div>
             <ul className="SidebarNav">
                 {SidebarData.map((val, key) => {
                     return (

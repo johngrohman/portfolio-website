@@ -4,6 +4,15 @@ import rov from '../assets/images/rover.png';
 
 export const AboutData = [
     {
+        title: "ACM General",
+        role: "Internal Vice President",
+        image: acm,
+        bullets: [
+            "Colaborate with officers to organize and host events thorughout the semester",
+
+        ]
+    },
+    {
         title: "ACM Web",
         role: "Front-End Developer",
         image: acm,
@@ -32,5 +41,6 @@ export const AboutData = [
             "Wrote autonomous rover detection and navigation Python programs that allowed the rover to naviggate itself around a detected obstacle.",
             "Gained experience using Git and Pipenv."
         ]
-    }
+    },
+
 ]
