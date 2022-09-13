@@ -308,7 +308,7 @@ html, body, #root, .app {
     right: 0;
     top: 0;
     background-color: #262626;
-    height: 90px;
+    height: 7vh;
     width: 100%;
     text-align: right;
   }
@@ -337,8 +337,9 @@ html, body, #root, .app {
     color: white;
     font-size: 3em;
     border: none;
-    margin-top: 30px;
-    margin-right: 20px;
+    position: relative;
+    right: 5vw;
+    top: 1vh;
   }
 
   .AboutCard {
