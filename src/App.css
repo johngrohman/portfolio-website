@@ -338,8 +338,6 @@ html, body, #root, .app {
     font-size: 3em;
     border: none;
     position: relative;
-    right: 5vw;
-    top: 1vh;
   }
 
   .AboutCard {
