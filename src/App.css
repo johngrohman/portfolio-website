@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 /* Desktop CSS | Bigger than 900 pixels */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 500px) {
 
 .Profile {
   display: none;
@@ -253,7 +253,7 @@ h1 {
 }
 
 /* Tablet CSS | Between 500 and 900 pixels */
-@media screen and (min-width: 500px) and (max-width: 900px) {
+/* @media screen and (min-width: 500px) and (max-width: 900px) {
 
 html, body, #root, .app {
   margin: 0;
@@ -272,7 +272,7 @@ html, body, #root, .app {
 .ToggleNav * {
   background-color: red;
   margin: 0;
-}
+} */
 
 
 }
