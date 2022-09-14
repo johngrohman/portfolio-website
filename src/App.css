@@ -315,14 +315,14 @@ html, body, #root, .app {
 
   .Home, .ContactMe, .More {
     height: 100vh;
-    padding-top: 10px;
+    padding-top: 30px;
     margin-bottom: 10px;
     margin-left: 40px;
     margin-right: 40px;
   }
 
   .AboutMe {
-    padding-top: 10px;
+    padding-top: 30px;
   }
 
   #content {
@@ -338,6 +338,8 @@ html, body, #root, .app {
     font-size: 3em;
     border: none;
     position: relative;
+    left: 20px;
+    bottom: 10px;
   }
 
   .AboutCard {
