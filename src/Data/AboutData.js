@@ -8,8 +8,10 @@ export const AboutData = [
         role: "Internal Vice President",
         image: acm,
         bullets: [
-            "Colaborate with officers to organize and host events thorughout the semester",
-
+            "Colaborate with the president to organize and host events thorughout the semester",
+            "Created a flyer for our recruitment drive and sent announcements to over 400 people",
+            "Worked with CS department to send out announcements to CS students and hang flyers around campus",
+            "Worked with chairs of ACM communities to compile presentations for the recruitment drive"
         ]
     },
     {
