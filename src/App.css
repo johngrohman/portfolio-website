@@ -338,7 +338,7 @@ html, body, #root, .app {
     font-size: 3em;
     border: none;
     position: relative;
-    left: 20px;
+    left: 30px;
     bottom: 10px;
   }
 
@@ -421,7 +421,7 @@ html, body, #root, .app {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(50px);
-    margin-top: -3px;
+    margin-top: -6px;
     padding-top: 10px;
     height: 100vh;
     z-index: 1;
