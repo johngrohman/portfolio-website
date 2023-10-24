@@ -5,13 +5,23 @@ import rov from '../assets/images/rover.png';
 export const AboutData = [
     {
         title: "ACM General",
-        role: "Internal Vice President",
+        role: "Vice President Internal",
         image: acm,
         bullets: [
-            "Colaborate with the president to organize and host events thorughout the semester",
+            "Colaborate with the president to organize and host events throughout the semester",
             "Created a flyer for our recruitment drive and sent announcements to over 400 people",
             "Worked with CS department to send out announcements to CS students and hang flyers around campus",
             "Worked with chairs of ACM communities to compile presentations for the recruitment drive"
+        ]
+    },
+    {
+        title: "Lambda Chi Alpha",
+        role: "Vice President External",
+        image: lca,
+        bullets: [
+            "Orchestrated 2 philanthropy events, raising more than $2,000 for the American Red Cross and the Alzheimer’s Association’s Walk to End Alzheimer’s",
+            "Managed a committee of several people, delegating multiple tasks to plan and execute multiple events",
+            "Planned multiple service events with local organizations, offering several hours of community service from our chapter"
         ]
     },
     {

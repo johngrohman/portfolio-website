@@ -8,7 +8,7 @@ function AboutMe() {
   return (
     <div className='AboutMe' id='aboutme'>
       <h1>About-Me</h1>
-      <p className='bio'>Welcome! My name is John and I'm currently studying computer scicne at Missouri S&T. Here's some more about my involvement on campus:</p>
+      <p className='bio'>Welcome! My name is John and I'm currently studying computer sciecne at Missouri S&T. Here's some more about my involvement on campus:</p>
       { AboutData.map((val, key) => {
         return (
         <AboutCard
