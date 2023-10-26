@@ -30,8 +30,7 @@ export const AboutData = [
         image: acm,
         bullets: [
             "Utilize React.js to create front-end features as a team of developers.",
-            "Fixed front-end event date formatting issue on the ACM production site.",
-            "Learned about virtualizatioon with Docker."
+            "Fixed front-end event date formatting issue on the ACM production site."
         ]
     },
     {
