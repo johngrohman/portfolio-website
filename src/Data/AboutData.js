@@ -19,7 +19,7 @@ export const AboutData = [
         role: "Vice President External",
         image: lca,
         bullets: [
-            "Orchestrated 2 philanthropy events, raising more than $2,000 for the American Red Cross and the Alzheimer’s Association’s Walk to End Alzheimer’s",
+            "Orchestrated 3 philanthropy events, raising more than $9,000 for the American Red Cross, Feeding America, and the Alzheimer’s Association’s Walk to End Alzheimer’s",
             "Managed a committee of several people, delegating multiple tasks to plan and execute multiple events",
             "Planned multiple service events with local organizations, offering several hours of community service from our chapter"
         ]
