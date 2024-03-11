@@ -1,0 +1,17 @@
+ul {
+    text-align: right;
+}
+
+.NavBarListItems {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.NavBar {
+    background-color: #222429;
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 1px 1px 10px 1px black;
+}

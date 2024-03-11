@@ -1,0 +1,40 @@
+/* Desktop CSS | Bigger than 900 pixels */
+@media screen and (min-width: 600px) {
+
+    .Panel {
+        width: 50%;
+    }
+
+    #NamePanel {
+        margin-top: 25vh;
+        font-weight: normal;
+    }
+
+    #canvas {
+        background-color: red;
+        width: 10px;
+        height: 10px;
+    }
+
+    @keyframes rotat3d {
+        0%{
+            transform: rotate(90)
+        }
+        25% {
+            transform: rotate(90)
+        }
+        50% {
+            transform: rotate(90)
+        }
+        75% {
+            transform: rotate(90)
+        }
+        100% {
+            transform: rotate(90)
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+}

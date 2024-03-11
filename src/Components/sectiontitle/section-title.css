@@ -1,0 +1,14 @@
+.SectionTitle {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+h3 {
+    border: 2px solid;
+    border-radius: 100px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
