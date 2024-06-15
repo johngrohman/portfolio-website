@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SidebarData } from '../Data/SidebarData';
+import { SidebarData } from '../../../Data/SidebarData';
 
 function ToggleNav() {
     const [hiddenMenu, setHiddenMenu] = useState(true)

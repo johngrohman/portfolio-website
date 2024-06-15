@@ -1,20 +1,18 @@
 import React from 'react';
 import "../App.css";
-import Home from '../pages/Home.js';
-import AboutMe from '../pages/AboutMe.js';
-import ContactMe from '../pages/ContactMe.js';
-import More from '../pages/More.js';
-import ToggleNav from './ToggleNav';
+import Home from '../Pages/Home.js';
+import AboutMe from '../Pages/AboutMe.js';
+import ContactMe from '../Pages/ContactMe.js';
+import More from '../Pages/More.js';
+import ToggleNav from './Navigation/ToggleNav/ToggleNav.js';
 
 const Main = () => (
     <div id="content">
-        <main>
-            <ToggleNav />
-            <Home />
-            <AboutMe />
-            <ContactMe />
-            <More />
-        </main>
+        <ToggleNav />
+        <Home />
+        <AboutMe />
+        <ContactMe />
+        <More />
     </div>
 )
 

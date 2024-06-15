@@ -7,8 +7,7 @@ const Home = () => (
         <Profile />
         <div className='HomeText'>
             <h1>John Grohman</h1>
-            <p>Computer Science Student at</p>
-            <p>Missouri University of Science and Technology</p>
+            <p>Software Engineer</p>
         </div>
     </div>
 )

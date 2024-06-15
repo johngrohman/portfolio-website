@@ -1,26 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import NavBar from './Components/navigation/Nav.tsx';
-
-// Screens
-import Home from "./Pages/home/Home.tsx";
-import About from "./Pages/about/About.tsx";
-import Portfolio from './Pages/portfolio/Portfolio.tsx';
-import Contact from './Pages/contact/Contact.tsx';
-
-// Styling
-import "./index.css";
+import SideBar from './Components/Navigation/Sidebar/Sidebar.js';
+import Main from './Components/Main.js';
 
 const App = () => (
-  <div id="app">
-    <NavBar />
-    <main>
-        <Home />
-        <About />
-        <Portfolio />
-        <Contact />
-    </main>
-  </div>
+    <div className='app'>
+        <SideBar />
+        <Main />
+    </div>
 )
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);

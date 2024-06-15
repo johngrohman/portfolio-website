@@ -1,0 +1,54 @@
+@media screen and (min-width: 500px) {
+
+    .Sidebar {
+        background-color: #262626;
+        width: 25%;
+        min-width: 300px;
+        max-width: 360px;
+        height: 100%;
+        text-align: center;
+        position: fixed;
+    }
+
+    .SidebarNav{
+        list-style: none;
+        text-align: left;
+        margin-top: 30px;
+        margin-top: 20px;
+        margin-left: 15%;
+    }
+  
+    .SidebarNavRow {
+        margin-bottom: 7px;
+        position: relative;
+        width: fit-content;
+        cursor: pointer;
+    }
+  
+    .SidebarNavRow::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 3px;
+        bottom: -1px;
+        left: 0;
+        background-color: white;
+        transform-origin: bottom left;
+        transition: .3s;
+    }
+    
+    .SidebarNavRow:hover::before {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+  
+  .Sidebar {
+    display: none;
+  }
+
+}
