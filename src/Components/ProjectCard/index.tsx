@@ -15,36 +15,36 @@ export default function ProjectCard({name, description}: {name: string, descript
         'HTML': <Html5Original size={35} />,
         'CSS': <Css3Original size={35} />,
         'Rust': <RustOriginal size={35} />,
-    }
+    };
 
     useEffect(() => {
         const languagesLookUp = async () => {
             try {
                 const response = await fetch('https://api.github.com/repos/johngrohman/' + name + '/languages');
                 if (!response.ok) {
-                  throw new Error('Network response was not ok' + response);
+                    throw new Error('Network response was not ok' + response);
                 }
                 const jsonData = await response.json();
-                const dataArray = Object.keys(jsonData)
+                const dataArray = Object.keys(jsonData);
                 setLanguages(dataArray);
-              } catch (error) {
+            } catch (error) {
                 console.error('Error fetching data:', error);
-              }
-        }
+            }
+        };
         languagesLookUp();
-    }, [])
+    }, []);
 
     return (
         <a href={'https://github.com/johngrohman/'+name} target='blank'>
             <div className='ProjectCard'>
                 <h3>{name}</h3>
-                <p style={{fontSize: "1em"}}>{description}</p>
+                <p style={{fontSize: '1em'}}>{description}</p>
                 {
                     languages.map((language, index) => (
-                        <p className='icon'>{languge_icons[language]}</p>
+                        <p className='icon' key={index}>{languge_icons[language]}</p>
                     ))
                 }
             </div>
         </a>
-    )
+    );
 }
