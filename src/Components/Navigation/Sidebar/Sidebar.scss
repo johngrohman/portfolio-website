@@ -1,13 +1,13 @@
 @media screen and (min-width: 500px) {
 
     .Sidebar {
-        background-color: #262626;
         width: 25%;
         min-width: 300px;
         max-width: 360px;
-        height: 100%;
+        height: 100vh;
         text-align: center;
-        position: fixed;
+        position: sticky;
+        top: 0;
     }
 
     .SidebarNav{
