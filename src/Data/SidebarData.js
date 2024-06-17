@@ -1,18 +1,18 @@
 export const SidebarData = [
     {
-        title: "Home",
-        link: "home"
+        title: 'Home',
+        link: 'home'
     },
     {
-        title: "About-Me",
-        link: "aboutme"
+        title: 'Portfolio',
+        link: 'aboutme'
     },
     {
-        title: "Contact-Me",
-        link: "contactme"
+        title: 'Contact',
+        link: 'contactme'
     },
     {
-        title: "More",
-        link: "more"
+        title: 'More',
+        link: 'more'
     },
-]
+];

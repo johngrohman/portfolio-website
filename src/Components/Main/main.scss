@@ -1,0 +1,14 @@
+@media screen and (min-width: 500px) {
+    .main {
+        margin-top: -30px;
+        color: white;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        background-size: 100%;
+        height: fit-content;
+    }
+}

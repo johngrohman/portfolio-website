@@ -1,0 +1,35 @@
+@media screen and (min-width: 500px) {
+    .AboutMe {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .bio {
+        width: 50%;
+        min-width: 600px;
+        margin: 100px auto;
+    }
+    
+    .ResumeDownload {
+        text-decoration: none;
+        color: white;
+    }
+      
+    .ResumeDownload:hover {
+    color: lightgray;
+    transition: .3s;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .AboutMe {
+        padding-top: 30px;
+    }
+
+    .AboutMe p {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+}

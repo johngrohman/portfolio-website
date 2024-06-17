@@ -2,7 +2,8 @@ module.exports = {
     'extends': [
         'eslint:recommended',
         'plugin:react/recommended',
-        'plugin:jest/recommended'
+        'plugin:jest/recommended',
+        'plugin:@typescript-eslint/recommended'
     ],
     'settings': {
         'react': {
@@ -45,7 +46,8 @@ module.exports = {
     },
     'plugins': [
         'react',
-        'jest'
+        'jest',
+        '@typescript-eslint'
     ],
     'parserOptions': {
         'ecmaFeatures': {
@@ -53,14 +55,18 @@ module.exports = {
             'tsx': true
         },
         'sourceType': 'module',
-        'ecmaVersion': 2020
+        'ecmaVersion': 2020,
+        'parser': '@typescript-eslint/parser'
     },
     'rules': {
         'indent': ['error', 4],
         'semi': ['error', 'always'],
-        'quotes': ['error', 'single']
+        'quotes': ['error', 'single'],
+        "react/prop-types": "off"
     },
     'env': {
-        'jest/globals': true
+        'jest/globals': true,
+        'browser': true,
+        'node': true
     }
 };

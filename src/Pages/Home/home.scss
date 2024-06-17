@@ -1,0 +1,30 @@
+@media screen and (min-width: 500px) {
+    #Home, p {
+        font-size: 1.2em;
+    }
+
+    .Home {
+        padding-left: 12%;
+        height: 70vh;
+        padding-top: 30vh;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .Home {
+        height: 100vh;
+        padding-top: 30px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .HomeText h1 {
+        display: none;
+      }
+    
+    .HomeText p {
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,41 @@
+@media screen and (min-width: 500px) {
+    .ContactCard {
+        background-color: #262626bd;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(20);
+        text-align: left;
+        width: 450px;
+        margin: 100px auto;
+        padding: 30px 20px 40px 20px;
+        line-height: 12px;
+        font-size: .9em;
+        color: white;
+        margin-top: 30vh;
+      }
+      
+      .ContactCard img {
+        width: 75px;
+        border-radius: 100%;
+        border: 4px solid black;
+      }
+}
+
+@media screen and (max-width: 500px) {
+    .ContactCard {
+        background-color: #262626bd;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(20);
+        margin: 100px auto;
+        padding: 30px 20px 40px 20px;
+        line-height: 12px;
+        font-size: .9em;
+        color: white;
+        margin-top: 30vh;
+      }
+      
+      .ContactCard img {
+        width: 75px;
+        border-radius: 100%;
+        border: 4px solid black;
+      }
+}
