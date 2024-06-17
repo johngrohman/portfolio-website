@@ -63,11 +63,17 @@
         margin-right: auto;
     }
 
-    #code {
-        width: 60px;
+    .code {
+        color: white;
+        font-size: 2em;
         position: fixed;
         bottom: 20px;
         transform: translate(-50%, 0);
+    }
+
+    .bi {
+        color: white;
+        font-size: 1.75em;
     }
 }
 
