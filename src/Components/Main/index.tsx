@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from '../../Pages/Home';
-import AboutMe from '../../Pages/About';
+import Portfolio from '../../Pages/Portfolio';
 import ContactMe from '../../Pages/Contact';
 import More from '../../Pages/More';
 import ToggleNav from '../Navigation/ToggleNav';
@@ -10,7 +10,7 @@ const Main = () => (
     <div className='main'>
         <ToggleNav />
         <Home />
-        <AboutMe />
+        <Portfolio />
         <ContactMe />
         <More />
     </div>
