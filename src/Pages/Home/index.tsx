@@ -1,13 +1,22 @@
 import React from 'react';
 import Profile from '../../Components/Profile';
+import TypewriterComponent from 'typewriter-effect';
 import './home.scss';
 
 const Home = () => (
     <div className='Home' id='home'>
         <Profile />
         <div className='HomeText'>
-            <h1>Hello</h1>
-            <p>Welcome! I&apos;m John, a passionate software engineer dedicated to crafting innovative, efficient, and pixel perfect tools.</p>
+            <h1>
+                <TypewriterComponent
+                    options={{
+                        strings: ['Hello', 'Hola', 'Bonjour', 'Hallo', '你好', 'Ciao'],
+                        autoStart: true,
+                        loop: true,
+                    }}
+                />
+            </h1>
+            <p>Welcome! I&apos;m John, a passionate software engineer dedicated to crafting innovative, efficient, and pixel perfect solutions.</p>
         </div>
     </div>
 );

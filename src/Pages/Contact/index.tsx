@@ -5,7 +5,7 @@ import SectionTitle from '../../Components/SectionTitle';
 
 const ContactMe = () => (
     <div className='ContactMe' id='contactme'>
-        <SectionTitle title='contact' color='pink' />
+        <SectionTitle title='Contact' color='#00FF29' />
         <h1>Contact-Me</h1>
         <ContactCard />
     </div>

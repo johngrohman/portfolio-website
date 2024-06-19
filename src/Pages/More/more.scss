@@ -1,5 +1,7 @@
 .More {
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
+    padding-top: 30px;
 }
 
 @media screen and (min-width: 500px) {

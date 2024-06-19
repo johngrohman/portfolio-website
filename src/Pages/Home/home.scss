@@ -4,11 +4,16 @@
     }
 
     .Home {
-        padding-left: 12%;
-        height: 70vh;
-        padding-top: 30vh;
+        padding-left: 7%;
+        padding-right: 7%;
+        height: 100vh;
     }
-    
+
+    .HomeText {
+        position: relative;
+        top: 33%;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
