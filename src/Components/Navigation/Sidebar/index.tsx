@@ -1,5 +1,5 @@
 import React from 'react';
-import { SidebarData } from '../../../Data/SidebarData.js';
+import SidebarData from '../../../Data/SidebarData.json';
 import './Sidebar.scss';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
