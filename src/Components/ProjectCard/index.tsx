@@ -1,49 +1,37 @@
-import React, {useState, useEffect } from 'react';
+import React from 'react';
 import { CplusplusOriginal, PythonOriginal, JavascriptOriginal, TypescriptOriginal, Html5Original, Css3Original, RustOriginal, COriginal } from 'devicons-react';
 import './projectcard.scss';
 
-export default function ProjectCard({name, description}: {name: string, description: string}) {
+export default function ProjectCard({name, description, languages, color}: {name: string, description: string, languages: string[], color: string}) {
 
-    const [languages, setLanguages] = useState([]);
+    const icon_size = 30;
 
     const languge_icons = {
-        'C++': <CplusplusOriginal size={35}/>,
-        'C': <COriginal size={35} />,
-        'Python': <PythonOriginal size={35}/>,
-        'JavaScript': <JavascriptOriginal size={35} />,
-        'TypeScript': <TypescriptOriginal size={35} />,
-        'HTML': <Html5Original size={35} />,
-        'CSS': <Css3Original size={35} />,
-        'Rust': <RustOriginal size={35} />,
+        'C++': <CplusplusOriginal size={icon_size}/>,
+        'C': <COriginal size={icon_size} />,
+        'Python': <PythonOriginal size={icon_size}/>,
+        'JavaScript': <JavascriptOriginal size={icon_size} />,
+        'TypeScript': <TypescriptOriginal size={icon_size} />,
+        'HTML': <Html5Original size={icon_size} />,
+        'CSS': <Css3Original size={icon_size} />,
+        'Rust': <RustOriginal size={icon_size} />,
     };
 
-    useEffect(() => {
-        const languagesLookUp = async () => {
-            try {
-                const response = await fetch('https://api.github.com/repos/johngrohman/' + name + '/languages');
-                if (!response.ok) {
-                    throw new Error('Network response was not ok' + response);
-                }
-                const jsonData = await response.json();
-                const dataArray = Object.keys(jsonData);
-                setLanguages(dataArray);
-            } catch (error) {
-                console.error('Error fetching data:', error);
-            }
-        };
-        languagesLookUp();
-    }, []);
-
+    if (!languages ){languages = [''];}
+    
     return (
         <a href={'https://github.com/johngrohman/'+name} target='blank'>
             <div className='ProjectCard'>
+                <div className='colorBar' style={{backgroundColor: color}}></div>
                 <h3>{name}</h3>
                 <p style={{fontSize: '1em'}}>{description}</p>
-                {
-                    languages.map((language, index) => (
-                        <p className='icon' key={index}>{languge_icons[language]}</p>
-                    ))
-                }
+                <div className='iconList'>
+                    {
+                        languages.map((language, index) => (
+                            <p className='icon' key={index}>{languge_icons[language]}</p>
+                        ))
+                    }
+                </div>
             </div>
         </a>
     );

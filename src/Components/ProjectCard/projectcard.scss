@@ -1,37 +1,48 @@
 /* Desktop CSS | Bigger than 900 pixels */
-@media screen and (min-width: 600px) {
 
-    .ProjectCard {
-        width: 20vw;
-        height: auto;
-        min-width: 230px;
-        max-width: 250px;
-        box-shadow: 1px 1px 15px 0px black;
-        border-radius: 20px;
-        text-align: center;
-        margin: 15px;
-        padding: 10px;
-        background-color: rgb(255, 255, 255, .05);
+.ProjectCard {
+    width: 20vw;
+    height: auto;
+    min-width: 300px;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0px black;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255, .03);
+    transition: .35s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+:hover.ProjectCard {
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255, .05);
+}
+
+.colorBar {
+    height: 10px;
+    width: auto;
+}
+
+@media screen and (min-width: 600px) {
+    .iconList {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
-    
-    a {
-        text-decoration: none;
-        color: white;
-    }
-    
-    :hover.ProjectCard {
-        box-shadow: 1px 1px 20px 1px black;
-        background-color: rgb(255, 255, 255, .07);
-        transition: .3s;
-    }
-    
     .icon {
-        display: inline-block;
         margin: 10px;
     }
-    
-    }
+}
         
-    @media screen and (max-width: 600px) {
-    
+@media screen and (max-width: 600px) {
+    .icon {
+        display: inline-block;
+        margin: 5px;
     }
+}

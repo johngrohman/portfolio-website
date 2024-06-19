@@ -1,0 +1,23 @@
+[
+    {
+        "name":"uPlant",
+        "description":"Mobile app for plant enthusiasts and gardeners to manage their plant collection.",
+        "languages":["JavaScript", "TypeScript"],
+        "url": "https://github.com/johngrohman/uPlant",
+        "color": "#18A558"
+    },
+    {
+        "name":"Traceroute Mapper",
+        "description":"A web app used to geographically visualize how a packet travels through the internet.",
+        "languages":["Python", "TypeScript", "HTML", "JavaScript"],
+        "url": "https://github.com/johngrohman/traceroutemapper",
+        "color": "#21B6A8"
+    },
+    {
+        "name":"Grocery List",
+        "description":"Mobile app to help you manage and share your grocery lists as well as finding the best deals.",
+        "languages":["JavaScript", "Python", "TypeScript"],
+        "url": "https://github.com/johngrohman/GroceryList",
+        "color": "#189AB4"
+    }
+]
