@@ -24,14 +24,16 @@
     "sass": "^1.77.5",
     "svg": "^0.1.0",
     "typescript": "^3.2.1",
-    "web-vitals": "^2.1.4"
+    "typewriter-effect": "^2.21.0",
+    "web-vitals": "^2.1.4",
+    "ws": "^8.17.1"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "lint": "eslint 'src/**/*.js' 'src/**/*.ts' 'src/**/*.tsx'",
+    "lint": "eslint 'src/**/*.tsx'",
     "test": "npm run lint",
     "eject": "react-scripts eject"
   },
