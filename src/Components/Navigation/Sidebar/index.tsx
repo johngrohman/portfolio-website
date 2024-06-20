@@ -1,7 +1,8 @@
 import React from 'react';
-import SidebarData from '../../../Data/SidebarData.json';
+import SidebarData from '../../../data/SidebarData.json';
 import './Sidebar.scss';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import { HashLink } from 'react-router-hash-link';
 
 function Sidebar() {
     return (
@@ -19,15 +20,14 @@ function Sidebar() {
             <ul className='SidebarNav'>
                 {SidebarData.map((val, key) => {
                     return (
-                        <li 
-                            key={key} 
-                            className='SidebarNavRow'
-                            onClick={()=> {
-                                window.location.hash = val.link;
-                            }}
-                        >
-                            <div>{val.title}</div>
-                        </li>
+                        <div className='SidebarNavRow' key={key}>
+                            <HashLink
+                                smooth
+                                to={`#${val.link}`}
+                            >
+                                <div>{val.title}</div>
+                            </HashLink>
+                        </div>
                     );
                 })}
             </ul>

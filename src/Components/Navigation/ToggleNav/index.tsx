@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SidebarData from '../../../Data/SidebarData.json';
+import SidebarData from '../../../data/SidebarData.json';
 import './togglenav.scss';
 
 function ToggleNav() {
