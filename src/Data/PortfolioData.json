@@ -8,7 +8,7 @@
     },
     {
         "name":"Traceroute Mapper",
-        "description":"A web app used to geographically visualize how a packet travels through the internet.",
+        "description":"Web app used to geographically visualize how a packet travels through the internet.",
         "languages":["Python", "TypeScript", "HTML", "JavaScript"],
         "url": "https://github.com/johngrohman/traceroutemapper",
         "color": "#21B6A8"

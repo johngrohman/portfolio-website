@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from '../../Components/Profile';
+import Profile from '../../components/Profile';
 import TypewriterComponent from 'typewriter-effect';
 import './home.scss';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { CplusplusOriginal, PythonOriginal, JavascriptOriginal, TypescriptOriginal, Html5Original, Css3Original, RustOriginal, COriginal } from 'devicons-react';
 import './projectcard.scss';
 
-export default function ProjectCard({name, description, languages, color}: {name: string, description: string, languages: string[], color: string}) {
+export default function ProjectCard({name, description, languages, url, color}: {name: string, description: string, languages: string[], url: string, color: string}) {
 
     const icon_size = 30;
 
@@ -20,7 +20,7 @@ export default function ProjectCard({name, description, languages, color}: {name
     if (!languages ){languages = [''];}
     
     return (
-        <a href={'https://github.com/johngrohman/'+name} target='blank'>
+        <a href={url} target='blank'>
             <div className='ProjectCard'>
                 <div className='colorBar' style={{backgroundColor: color}}></div>
                 <h3>{name}</h3>

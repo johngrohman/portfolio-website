@@ -1,8 +1,8 @@
 import React from 'react';
-import SectionTitle from '../../Components/SectionTitle';
-import ProjectCard from '../../Components/ProjectCard';
+import SectionTitle from '../../components/SectionTitle';
+import ProjectCard from '../../components/ProjectCard';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import repodata from '../../Data/PortfolioData.json';
+import repodata from '../../data/PortfolioData.json';
 import './portfolio.scss';
 
 const Portfolio: React.FC = () => {
@@ -10,11 +10,11 @@ const Portfolio: React.FC = () => {
     return (
         <div className='portfolio' id='portfolio'>
             <SectionTitle title='Portfolio' color='#ff69b4 ' />
-            <h1 className='PortfolioTitle'>Explore My Recent Projects</h1>
+            <h1>Explore My Recent Projects</h1>
             <div className='cards'>
                 {
                     repodata.map((project, index) => (
-                        <ProjectCard name={project['name']} description={project['description']} languages={project['languages']} color={project['color']} key={index} />
+                        <ProjectCard name={project['name']} description={project['description']} languages={project['languages']} url={project['url']} color={project['color']} key={index} />
                     ))
                 }
             </div>

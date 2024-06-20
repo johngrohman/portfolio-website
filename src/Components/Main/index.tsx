@@ -1,8 +1,8 @@
 import React from 'react';
-import Home from '../../Pages/Home';
-import Portfolio from '../../Pages/Portfolio';
-import ContactMe from '../../Pages/Contact';
-import More from '../../Pages/More';
+import Home from '../../pages/Home';
+import Portfolio from '../../pages/Portfolio';
+import ContactMe from '../../pages/Contact';
+import More from '../../pages/More';
 import ToggleNav from '../Navigation/ToggleNav';
 import './main.scss';
 
