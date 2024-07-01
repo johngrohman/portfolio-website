@@ -2,7 +2,6 @@ import React from 'react';
 import Home from '../../pages/Home';
 import Portfolio from '../../pages/Portfolio';
 import ContactMe from '../../pages/Contact';
-import More from '../../pages/More';
 import ToggleNav from '../Navigation/ToggleNav';
 import './main.scss';
 
@@ -12,7 +11,6 @@ const Main = () => (
         <Home />
         <Portfolio />
         <ContactMe />
-        <More />
     </div>
 );
 

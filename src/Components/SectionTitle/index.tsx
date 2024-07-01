@@ -4,7 +4,7 @@ import './sectiontitle.scss';
 export default function SectionTitle({title, color}: {title: string, color: string}) {
     return (
         <div className='SectionTitle' style={{color: color}}>
-            <h4 style={{color: color}}>{title}</h4>
+            <h4 className='sectionHeaderText' style={{color: color}}>{title}</h4>
         </div>
     );
 }

@@ -6,12 +6,12 @@
     min-width: 250px;
     max-width: 300px;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px 0px black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     text-align: center;
-    margin: 20px;
-    padding: 10px;
     background-color: rgb(255, 255, 255, .03);
     transition: .35s;
+    color: var(--color-foreground);
+    padding: 10px;
 }
 
 a {
@@ -19,30 +19,49 @@ a {
     color: white;
 }
 
-:hover.ProjectCard {
-    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.5);
-    background-color: rgb(255, 255, 255, .05);
-}
-
 .colorBar {
     height: 10px;
     width: auto;
 }
 
-@media screen and (min-width: 600px) {
+.icon {
+    margin: 10px;
+}
+
+p.projectcarddescription {
+    font-size: 1em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (min-width: 480px) {
+    .ProjectCard {
+        margin: 20px;
+    }
+
+    :hover.ProjectCard {
+        box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.4);
+        background-color: rgb(255, 255, 255, .05);
+    }
+
+}
+        
+@media screen and (max-width: 480px) {
+    .ProjectCard {
+        margin: 30px auto;
+        width: 90%;
+    }
+
+    .ProjectCard * {
+        margin: 10px;
+    }
+
     .iconList {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-    }
-    .icon {
-        margin: 10px;
-    }
-}
-        
-@media screen and (max-width: 600px) {
-    .icon {
-        display: inline-block;
-        margin: 5px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 }

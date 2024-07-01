@@ -6,7 +6,7 @@ export default function ProjectCard({name, description, languages, url, color}: 
 
     const icon_size = 30;
 
-    const languge_icons = {
+    const languge_icons: {[id: string]: JSX.Element}  = {
         'C++': <CplusplusOriginal size={icon_size}/>,
         'C': <COriginal size={icon_size} />,
         'Python': <PythonOriginal size={icon_size}/>,
@@ -24,7 +24,7 @@ export default function ProjectCard({name, description, languages, url, color}: 
             <div className='ProjectCard'>
                 <div className='colorBar' style={{backgroundColor: color}}></div>
                 <h3>{name}</h3>
-                <p style={{fontSize: '1em'}}>{description}</p>
+                <p className='projectcarddescription'>{description}</p>
                 <div className='iconList'>
                     {
                         languages.map((language, index) => (

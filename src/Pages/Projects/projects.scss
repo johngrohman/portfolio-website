@@ -1,0 +1,62 @@
+.projects {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vh;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr.tablerow{
+    border-top: 1px solid #464646;
+}
+
+thead tr th {
+    padding: 15px;
+}
+
+td.a {
+    padding: 15px;
+}
+
+.projectName {
+    text-align: center;
+}
+
+.icon {
+    display: inline;
+}
+
+.backarrow {
+    width: auto;
+    display: inline-block;
+    height: auto;
+    vertical-align: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 15px;
+    font-size: 1em;
+    color: var(--color-foreground);
+}
+
+.backarrow::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -1px;
+    left: 0;
+    background-color: var(--color-foreground);
+    transform-origin: bottom center;
+    transition: .3s;
+}
+
+.backarrow:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}

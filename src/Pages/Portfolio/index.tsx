@@ -3,6 +3,7 @@ import SectionTitle from '../../components/SectionTitle';
 import ProjectCard from '../../components/ProjectCard';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import repodata from '../../data/PortfolioData.json';
+// import { Link } from 'react-router-dom';
 import './portfolio.scss';
 
 const Portfolio: React.FC = () => {
@@ -19,8 +20,11 @@ const Portfolio: React.FC = () => {
                 }
             </div>
             <div className='projectarchive'>
-                <a href='apple.com' target='_blank'>
-                    <p>Project Archive <i className="rightarrow bi-arrow-right"></i></p>
+                {/* <Link to={'projects'}>
+                    <p className='link'>Project Archive <i className="rightarrow bi-arrow-right"></i></p>
+                </Link> */}
+                <a href='https://github.com/johngrohman' target='_blank' rel='noreferrer'>
+                    <p className='link'>More on Github <i className="rightarrow bi-arrow-right"></i></p>
                 </a>
             </div>
         </div>

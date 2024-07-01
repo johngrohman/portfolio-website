@@ -1,0 +1,24 @@
+@media screen and (min-width: 480px) {
+    .toggle {
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        // background-color: red;
+    }
+
+    .ti {
+        color: var(--color-foreground);
+        font-size: 1.75em;
+        transition: .5s;
+    }
+
+    .ti:hover {
+        color: gray;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .toggle {
+        display: none;
+    }
+}

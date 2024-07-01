@@ -10,13 +10,13 @@ const Home = () => (
             <h1>
                 <TypewriterComponent
                     options={{
-                        strings: ['Hello', 'Hola', 'Bonjour', 'Hallo', '你好', 'Ciao'],
+                        strings: ['Hello', 'Hola', 'Bonjour', 'Hallo', '你好', 'Ciao', 'नमस्ते'],
                         autoStart: true,
                         loop: true,
                     }}
                 />
             </h1>
-            <p>Welcome! I&apos;m John, a passionate software engineer dedicated to crafting innovative, efficient, and pixel perfect solutions.</p>
+            <p>Welcome! I&apos;m John, a passionate software engineer dedicated to crafting innovative, efficient, and pixel perfect experiences.</p>
         </div>
     </div>
 );

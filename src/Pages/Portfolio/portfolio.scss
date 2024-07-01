@@ -49,25 +49,24 @@
         height: 3px;
         bottom: -1px;
         left: 0;
-        background-color: white;
         transform-origin: bottom center;
         transition: .3s;
+        background-color: var(--color-foreground);
     }
     
     .projectarchive:hover::before {
         transform: scaleX(1);
         transform-origin: bottom center;
     }
+
+    .link {
+        color: var(--color-foreground);
+    }
+
 }
 
 @media screen and (max-width: 500px) {
     .portfolio {
         padding-top: 30px;
     }
-
-    .portfolio p {
-        font-size: 20px;
-        margin-left: 30px;
-        margin-right: 30px;
-      }
 }

@@ -10,39 +10,6 @@
         top: 0;
     }
 
-    .SidebarNav{
-        list-style: none;
-        text-align: left;
-        margin-top: 30px;
-        margin-top: 20px;
-        margin-left: 10%;
-    }
-  
-    .SidebarNavRow {
-        margin-bottom: 7px;
-        position: relative;
-        width: fit-content;
-        cursor: pointer;
-    }
-  
-    .SidebarNavRow::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        transform: scaleX(0);
-        height: 3px;
-        bottom: -1px;
-        left: 0;
-        background-color: white;
-        transform-origin: bottom left;
-        transition: .3s;
-    }
-    
-    .SidebarNavRow:hover::before {
-        transform: scaleX(1);
-        transform-origin: bottom left;
-    }
-
     #profile-picture {
         width: 30%;
         min-width: 200px;
@@ -51,37 +18,96 @@
         margin-top: 50px;
     }
 
-    div#container {
+    div.container {
         display: flex;
-        margin-right: auto;
-        margin-left: auto;
-        width: 40%;
+        margin-right: 20%;
+        margin-left: 20%;
+        justify-content: space-evenly;
+        width: 60%;
+        position: absolute;
+        bottom: 90px;
     }
 
-    div#container * {
+    div.container a {
         width: 30px;
-        margin-left: auto;
-        margin-right: auto;
+    }
+
+    .SidebarNav{
+        list-style: none;
+        text-align: left;
+        margin-top: 30px;
+        margin-top: 20px;
+        margin-left: 10%;
+        padding-left:0;
+    }
+
+    .SidebarNavRow {
+        position: relative;
+        width: fit-content;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .SidebarNavRow::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 3px;
+        bottom: -1px;
+        left: 0;
+        transform-origin: bottom left;
+        transition: .3s;
+        background-color: var(--color-foreground);
+    }
+    
+    .SidebarNavRow:hover::before {
+        transform: scaleX(1);
+        transform-origin: bottom left;
     }
 
     .code {
-        color: white;
+        color: var(--color-foreground);
         font-size: 2em;
         position: fixed;
         bottom: 20px;
         transform: translate(-50%, 0);
+        transition: .5s;
     }
 
     .bi {
-        color: white;
+        color: var(--color-foreground);
         font-size: 1.75em;
-        transition: .3s;
-        
+        transition: .5s;
     }
 
     .bi:hover {
         color: gray;
     }
+
+    .link {
+        color: var(--color-foreground);
+        transition: .5s;
+    }
+
+    .profilepicture {
+        box-shadow: 0px 0px 10px 0px #2626267e;
+    }
+
+    .title {
+        margin-left: 10%;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .subtitle {
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 0;
+    }
+
+
+
 }
 
 @media screen and (max-width: 500px) {
@@ -90,13 +116,13 @@
     display: none;
   }
   
-  div#container * {
-    width: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    filter:opacity(.9);
-    position: relative;
-    z-index: -1
-  }
+//   div#container * {
+//     width: 30px;
+//     margin-left: 10px;
+//     margin-right: 10px;
+//     filter:opacity(.9);
+//     position: relative;
+//     z-index: -1
+//   }
 
 }

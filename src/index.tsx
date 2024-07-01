@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import ErrorBoundary from './Components/ErrorBoundary';
+
+import Projects from './pages/Projects';
 import App from './app';
 import './index.scss';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import ErrorPage from './error-page';
+import ErrorPage from './pages/Error';
 
 const router = createBrowserRouter([
     {
         path: '',
         element: <App />,
         errorElement: <ErrorPage />,
+    },
+    {
+        path: '/projects',
+        element: <Projects />
     },
 ]);
 
